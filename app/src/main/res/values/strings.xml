@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Frutería</string>
+    <string name="verduras">Verduras</string>
+    <string name="fruta">Fruta</string>
+    <string name="platanos">Plátanos</string>
+    <string name="naranja">Naranjas</string>
+    <string name="pimiento">Pimientos</string>
+    <string name="patata">Patatas</string>
+</resources>
