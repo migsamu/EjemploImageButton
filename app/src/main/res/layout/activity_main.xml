@@ -13,6 +13,7 @@
         android:layout_marginStart="128dp"
         android:layout_marginTop="60dp"
         android:contentDescription="@string/verduras"
+        android:onClick="mostrarVerduras"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ibNaranja"
@@ -58,6 +59,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
         android:contentDescription="@string/platanos"
+        android:onClick="compraPlatanos"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvFruta"
@@ -71,6 +73,7 @@
         android:layout_marginStart="117dp"
         android:layout_marginTop="10dp"
         android:contentDescription="@string/naranja"
+        android:onClick="compraNaranjas"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toEndOf="@+id/ibPlatano"
         app:layout_constraintTop_toBottomOf="@+id/tvFruta"
@@ -102,6 +105,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="10dp"
         android:contentDescription="@string/pimiento"
+        android:onClick="compraPimientos"
         android:scaleType="centerInside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvVerduras"
@@ -115,6 +119,7 @@
         android:layout_marginStart="98dp"
         android:layout_marginTop="10dp"
         android:contentDescription="@string/patata"
+        android:onClick="compraPatatas"
         android:scaleType="centerInside"
         app:layout_constraintStart_toEndOf="@+id/ibPimiento"
         app:layout_constraintTop_toBottomOf="@+id/tvVerduras"
@@ -147,5 +152,18 @@
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPimientos" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:onClick="reset"
+        android:text="Reset"
+        android:textSize="10sp"
+        app:iconPadding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
