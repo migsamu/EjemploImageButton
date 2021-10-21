@@ -147,7 +147,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void reset(View v) {
-        // Button reset = (Button) findViewById(R.id.btnReset);
         compra.setText("");
 
     }
