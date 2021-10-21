@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tvPimiento = (TextView) findViewById(R.id.tvPimientos);
         TextView tvPatata = (TextView) findViewById(R.id.tvPatatas);
 
-        if (esFrutaVisible) {
+        if (esVerduraVisible) {
             pimiento.setVisibility(View.GONE);
             patata.setVisibility(View.GONE);
             tvPimiento.setVisibility(View.GONE);
